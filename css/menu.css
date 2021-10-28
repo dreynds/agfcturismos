@@ -7,11 +7,48 @@ body {
 	font-family: roboto,Arial,sans-serif;
 }
 
-.menu { 
+#cabeca {
+    margin-top: 50px;
+}
+
+.menu {
+    font-size: 13.5px;
+}
+
+.menu ul {
+    width: 430px;
+
     display: flex;
+
+    margin: auto;
+
+    background: #09369e;
+
+    padding: 0px;
+
     list-style: none;
 }
 
+.menu li {
+    padding: 17.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu li:hover {
+}
+
 .menu a {
-    color 
+    color: white;
+
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.ativo {
 }
