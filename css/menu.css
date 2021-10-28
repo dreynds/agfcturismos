@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: roboto,Arial,sans-serif;
+}
+
+.menu { 
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    color 
+}
