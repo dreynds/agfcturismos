@@ -18,3 +18,20 @@ nav ul a {
 	font-size: 13.5px;
 	font-weight: 600;
 }
+
+/* Apagar este elemento (.right) caso de conflito */
+.right {
+	width: 300px;
+	margin: auto;
+	
+	float: none !important;
+}
+
+nav .brand-logo {
+	padding: 0px;
+	margin-top: 8px;
+}
+
+nav img {
+	width: 250px;
+}
