@@ -5,4 +5,23 @@
 
 body {
     font-family: Roboto, sans-serif;
+    background: #f1f1f1;
+}
+
+.conteudo {
+    width: 94%;
+    
+    margin: auto;
+
+    background: white;
+
+    text-indent: 10px;
+}
+
+.conteudo h2 {
+    font: 22pt Nunito, sans-serif;
+}
+
+.conteudo p {
+    font: 13.5px Nunito, sans-serif;
 }

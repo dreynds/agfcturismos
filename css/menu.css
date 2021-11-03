@@ -1,27 +1,43 @@
+@font-face {
+	font-family: Afirmative;
+	src: url(./Affirmative.ttf);
+ }
+
 nav {
-	height: 47px;
-	line-height: 47px;
+	height: 80px;
+	line-height: 80px;
 
 	padding: 0px;
 	margin: auto;
-	
-	background: #1b0046;
+
+	background: white;
+	box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
 }
 
 nav a.button-collapse i {
-	line-height: 45px;
+	line-height: 35px;
 }
 
 nav ul a {
-	color: #ddd;
+	font-family: Afirmative, sans-serif;
 
-	font-size: 13.5px;
-	font-weight: 600;
+	color: rgb(2, 0, 97);
+
+	font-size: 15px;
+}
+
+nav ul a:hover {
+	text-decoration: underline;
+	background: none;
+}
+
+.ativo {
+	text-decoration: underline;
 }
 
 /* Apagar este elemento (.right) caso de conflito */
 .right {
-	width: 300px;
+	width: 350px;
 	margin: auto;
 	
 	float: none !important;
@@ -34,4 +50,17 @@ nav .brand-logo {
 
 nav img {
 	width: 250px;
+}
+
+nav i {
+	color: rgb(2, 0, 97);
+}
+
+.nav-wrapper span {
+	font-size: 47px;
+	font-weight: 700;
+}
+
+.background img {
+	width: 100%;
 }
