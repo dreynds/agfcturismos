@@ -19,20 +19,22 @@ nav a.button-collapse i {
 }
 
 nav ul a {
-	font-family: Afirmative, sans-serif;
+	font-family: Nunito\ Sans;
+	font-weight: 600;
 
-	color: rgb(2, 0, 97);
+	color: #616161;
+	/* color: rgb(2, 0, 97); */
 
-	font-size: 15px;
+	font-size: 17px;
 }
 
 nav ul a:hover {
-	text-decoration: underline;
 	background: none;
+	color: #0a5
 }
 
 .ativo {
-	text-decoration: underline;
+	color: #0a5
 }
 
 /* Apagar este elemento (.right) caso de conflito */

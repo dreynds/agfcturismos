@@ -1,27 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+/* font-family: 'Nunito Sans', sans-serif; */
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
-    font-family: Roboto, sans-serif;
     background: #f1f1f1;
+
+    font-family: Nunito\ Sans;
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #616161;
 }
 
 .conteudo {
-    width: 94%;
+    width: 100%;
     
     margin: auto;
 
-    background: white;
+    background-image: url(../img/background-index.jpg);
+    background-position: center;
+    background-position-y: -200px;
+    background-repeat: no-repeat;
+    
+    background-color: rgba(0, 0, 0,.2);
+
+    padding-top: 20px;
+    padding-bottom: 350px;
 
     text-indent: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.conteudo h2 {
-    font: 22pt Nunito, sans-serif;
+.slogan {
+    background-color:rgba(0, 0, 0,.9)
 }
 
-.conteudo p {
-    font: 13.5px Nunito, sans-serif;
+.slogan h2 {
+    margin: 0px;
+    margin-top: 100px;
+    color: white;
+
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.slogan p {
+    color: white;
+    
+    text-align: center;
 }
