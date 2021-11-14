@@ -24,36 +24,55 @@ body {
     
     margin: auto;
 
-    background-image: url(../img/background-index.jpg);
+    background-image: url(../img/background-conteudo.jpg);
     background-position: center;
-    background-position-y: -200px;
+    background-position-y: -300px;
     background-repeat: no-repeat;
+    background-size: cover;
     
     background-color: rgba(0, 0, 0,.2);
 
-    padding-top: 20px;
-    padding-bottom: 350px;
+    padding-top: 180px;
+    padding-bottom: 220px;
 
-    text-indent: 10px;
     font-family: 'Quicksand', sans-serif;
 }
 
-.slogan {
-    background-color:rgba(0, 0, 0,.9)
-}
 
 .slogan h2 {
-    margin: 0px;
-    margin-top: 100px;
-    color: white;
+    width: 94%;
+    margin: auto;
+    color: #171717;
 
-    font-weight: 600;
+    font-weight: bolder;
 
     text-align: center;
 }
 
 .slogan p {
+    width: 94%;
+    margin: auto;
+
     color: white;
     
-    text-align: center;
+    text-align: left;
+    text-indent: 30px;
+
+    font-size: 20px;
+}
+
+.slogan span {
+    color: #734dff;
+
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 980px) {
+    .nav {
+        height: 10px;
+    }
+
+    .conteudo {
+        background-position-y: 0px;
+    }
 }

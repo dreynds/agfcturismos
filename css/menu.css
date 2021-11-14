@@ -4,25 +4,26 @@
  }
 
 nav {
-	height: 80px;
-	line-height: 80px;
+	z-index: 1;
+	height: 85px;
+	line-height: 85px;
 
 	padding: 0px;
 	margin: auto;
 
 	background: white;
-	box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
 }
 
 nav a.button-collapse i {
-	line-height: 35px;
+	line-height: 85px;
 }
 
 nav ul a {
 	font-family: Nunito\ Sans;
 	font-weight: 600;
 
-	color: #616161;
+	color: #171717;
+	/* color: #616161; */
 	/* color: rgb(2, 0, 97); */
 
 	font-size: 17px;
@@ -30,16 +31,16 @@ nav ul a {
 
 nav ul a:hover {
 	background: none;
-	color: #0a5
+	color: #734dff;
 }
 
 .ativo {
-	color: #0a5
+	color: #734dff;
 }
 
 /* Apagar este elemento (.right) caso de conflito */
 .right {
-	width: 350px;
+	width: 435px;
 	margin: auto;
 	
 	float: none !important;
@@ -47,11 +48,12 @@ nav ul a:hover {
 
 nav .brand-logo {
 	padding: 0px;
-	margin-top: 8px;
+	margin-top: 5px;
+	margin-left: 30px;
 }
 
 nav img {
-	width: 250px;
+	width: 75px;
 }
 
 nav i {
@@ -65,4 +67,38 @@ nav i {
 
 .background img {
 	width: 100%;
+}
+
+li ul {
+	position: absolute;
+	display: none;
+}
+
+li:hover ul {
+	display: inline;
+	width: 250px;
+	height: 800px;
+
+	height: 60px;
+	line-height: 60px;
+
+	transition: 0.5s;
+
+}
+
+li:hover ul li {
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+li:hover ul li a {
+	background-color: #fff;
+	width: 250px;
+
+	font-size: 13px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+li:hover ul li a:hover {
+	background: #734dff;
+	color: white;
 }
