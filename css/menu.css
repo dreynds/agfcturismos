@@ -15,7 +15,7 @@ nav {
 }
 
 nav a.button-collapse i {
-	line-height: 85px;
+	line-height: 65px;
 }
 
 nav ul a {
@@ -40,7 +40,7 @@ nav ul a:hover {
 
 /* Apagar este elemento (.right) caso de conflito */
 .right {
-	width: 435px;
+	width: 630px;
 	margin: auto;
 	
 	float: none !important;
@@ -49,7 +49,6 @@ nav ul a:hover {
 nav .brand-logo {
 	padding: 0px;
 	margin-top: 5px;
-	margin-left: 30px;
 }
 
 nav img {
@@ -57,7 +56,11 @@ nav img {
 }
 
 nav i {
-	color: rgb(2, 0, 97);
+	color: #171717;
+}
+
+nav i:hover {
+	color: #734dff;
 }
 
 .nav-wrapper span {
@@ -69,6 +72,22 @@ nav i {
 	width: 100%;
 }
 
+.side-nav li {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.side-nav a {
+	font-weight: 600;
+}
+
+.side-nav li:hover {
+	background: #734dff;
+}
+
+.side-nav li:hover a {
+	color: white;
+}
+
 li ul {
 	position: absolute;
 	display: none;
@@ -76,26 +95,21 @@ li ul {
 
 li:hover ul {
 	display: inline;
-	width: 250px;
+	width: 320px;
 	height: 800px;
 
 	height: 60px;
 	line-height: 60px;
 
 	transition: 0.5s;
-
 }
 
-li:hover ul li {
-	border-right: 1px solid rgba(0, 0, 0, 0.2);
-}
 
 li:hover ul li a {
 	background-color: #fff;
-	width: 250px;
+	width: 320px;
 
-	font-size: 13px;
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	font-size: 15px;
 }
 
 li:hover ul li a:hover {
