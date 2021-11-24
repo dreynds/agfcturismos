@@ -1,13 +1,12 @@
 @font-face {
 	font-family: Afirmative;
 	src: url(./Affirmative.ttf);
- }
-
-body {
-	font-family: Nunito\ Sans;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 nav {
+	
 	z-index: 1;
 	width: 94%;
 	height: 70px;
@@ -24,7 +23,7 @@ nav a.button-collapse i {
 }
 
 nav ul a {
-	font-family: Nunito\ Sans;
+	font-family: 'Quicksand';
 	font-weight: 600;
 
 	color: #171717;
@@ -45,7 +44,7 @@ nav ul a:hover {
 
 /* Apagar este elemento (.right) caso de conflito */
 .right {
-	width: 630px;
+	width: 650px;
 	margin: auto;
 	
 	float: none !important;

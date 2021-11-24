@@ -1,3 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
-    font-family: Nunito\ Sans;
+    color: #171717;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: #171717;
+}
+
+a:hover {
+    color: #734dff;
+}
+
+.infos{
+    width: 94%;
+
+    margin: auto;
+    margin-top: 30px;
+}
+
+.infos h1 {
+    font-size: 18pt;
+}
+
+.infos table {
+    width: 825px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.infos td {
+    width: 521px;
+
+    vertical-align: top;
+    padding: 0px;
+}
+
+.infos tr {
+    padding: 0px;
+}
+
+.infos table img {
+    width: 365px;
+
+    padding: 15px;
+
+    margin: auto;
+
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+
+.infos table .grande {
+    width: 260px;
+}
+
+.infos table span {
+    color: #734dff;
+    font-weight: bold;
+}
+
+.infos table h1 {
+    font-size: 18pt;
+    font-weight: bold;
+
+    margin: 0px;
+}
+
+.infos table p {
+    margin: 0px;
+}
+
+.notable {
+    width: 240px;
+    margin-left: 30px;
+
+    display: inline-block;
+}
+
+.notable h1 {
+    font-size: 11pt;
+    font-weight: bold;
+
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.notable p {
+    font-size: 9.5pt;
+}
+
+.notable span {
+    color: #734dff;
+    
+    font-weight: bold;
+}
+
+.sub {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.calendario {
+    vertical-align: top;
 }
